@@ -2,6 +2,35 @@
 
 body {
   box-sizing: border-box !important;
+  
+}
+
+/* HomePage */
+.allheaders {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.headers {
+  text-decoration: none;
+  color: #ffa500;
+}
+
+.headers:hover {
+  color: #aa90da;
+}
+
+
+.back {
+  background-image: url('images/p4.jpg');
+  /* background-color: #fff0d6; */
+  background-size: cover;
+  height: 600px;
+  border: 1px solid #ffa500;
+  color: #ffffff;
+  border-radius: 5px;
+  /* filter: blur(4px);
+  -webkit-filter: blur(4px); */
 }
 
 .bg-light {
@@ -9,16 +38,16 @@ body {
 }
 
 nav {
-  box-shadow: 1px 0 0 2px orange !important;
+  box-shadow: 1px 0 0 2px #ffa500 !important;
 }
 
 .navbar-toggler {
-  border-color: orange !important;
+  border-color: #ffa500 !important;
   border: 1px solid thick;
 }
 
 .nav-link:hover {
-  color: orange !important;
+  color: #ffa500 !important;
 }
 
 .nav-link {
@@ -34,7 +63,7 @@ nav {
 }
 
 button:focus {
-  outline-color:orange !important;
+  outline-color:#ffa500 !important;
 }
 
 .navbar-toggler-icon {
@@ -42,7 +71,7 @@ button:focus {
 }
 
 .dropdown-menu {
-  border: 1px solid orange !important;
+  border: 1px solid #ffa500 !important;
 }
 
 .dropdown-item:hover {
@@ -60,11 +89,48 @@ button:focus {
   background-color: #aa90da;
   text-align: center;
   color: #ffffff;
-  box-shadow: 0px -2px 0px 0px  orange;
+  box-shadow: 0px -2px 0px 0px  #ffa500;
+  margin-top: 20px;
 }
 
 .jumbotron {
   background-color: #ffffff !important;
-  border: 1px solid orange !important;
-  color: orange;
+  border: 1px solid #ffa500 !important;
+  color: #ffa500;
+}
+
+/* images  */
+
+.d-block {
+  border: 1px solid #ffa500 !important;
+  border-radius: 20px;
+}
+
+/* list group */
+.list-group > ol, ul {
+  color:  #aa90da !important;
+}
+
+
+.list-group-item {
+  border: 1px solid #ffa500 !important;
+} 
+
+.list-group-item > a {
+  text-decoration: none;
+  color: #aa90da !important;
+}
+
+.list-group-item > a:hover {
+  text-decoration: none;
+  color: #ffffff!important;
+}
+
+.list-group-item:hover {
+  background-color: #aa90da !important;
+  color: white !important;
+}
+
+.mycolor {
+  color: #aa90da;
 }
